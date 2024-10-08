@@ -1,14 +1,38 @@
- #include<stdio.h>
-int main(){
+ 
 
-int numero1 = 6;
-int numero2 = 20;
-int soma;
-char letra = '1';
-char nome[8]={"fernando"};
-printf("%c",letra);
-soma = numero1 + numero2;
-printf("%d",soma);
+#include <stdio.h>
+int main(){
+ printf("nota do 1b");
+ float n1;
+ scanf("%f",&n1);
+ printf("nota do 2b");
+ float n2;
+ scanf("%f",&n2);
+ printf("nota do 3b");
+ float n3;
+ scanf("%f",&n3);
+ printf("nota do 4b");
+ float n4;
+ scanf("%f",&n4);
+ float media;
+ media = (n1 + n2 + n3 + n4) / 4;
+ if(media < 4 ){
+printf("reprovado");
+ }
+ 
+ if(media >= 4 && media < 7){
+printf("recuperação final");
+ }
+ 
+   if(media >= 7){
+ printf("aprovado");
+   }
+
+
+
+
+ 
+
 }           
 
 
